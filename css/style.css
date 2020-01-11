@@ -1,0 +1,22 @@
+/** Lubomir Stankov 
+    Particler - Html template (2019)
+**/
+@import url('https://fonts.googleapis.com/css?family=Play&display=swap');
+
+.headerBackground{
+    background-image: url('/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 608px;
+}
+#particles {
+    height: 608px;
+    width: 100%;
+    position: relative;
+}
+.headerBackground .text {
+    color: white;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+}
