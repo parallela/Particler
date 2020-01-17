@@ -35,7 +35,7 @@ $(document).ready(function() {
         $('.count5').counter();
     }, 3000);
 
-    particlesJS.load('particles', '/js/particles.json');
+    particlesJS.load('particles', '../js/particles.json');
 
 
     // Typing
