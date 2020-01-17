@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Play&display=swap');
 
 .headerBackground{
-    background-image: url('/images/bg.jpg');
+    background-image: url('../images/bg.jpg');
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -13,10 +13,11 @@
 #particles {
     height: 608px;
     width: 100%;
-    position: relative;
+    position: absolute;
 }
 .headerBackground .text {
     color: white;
+    padding-top: 20%;
     text-align: center;
     font-family: 'Play', sans-serif;
 }

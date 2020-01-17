@@ -41,13 +41,5 @@ $(document).ready(function() {
     // Typing
     let typingText = ['OnePage template','Responsive on all mobile devices','Made with love by Lubomir Stankov'];
     var typed = new Typed('text', {strings:typingText,typeSpeed: 30,backSpeed: 20, smartBackspace: true,loop: true})
-    
-	$('#fullpage').fullpage({
-		//options here
-		autoScrolling:true,
-        scrollHorizontally: true,
-	});
-
-	//methods
-	$.fn.fullpage.setAllowScrolling(true);
+  
 });
