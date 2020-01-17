@@ -35,7 +35,7 @@ $(document).ready(function() {
         $('.count5').counter();
     }, 3000);
 
-    particlesJS.load('particles', 'particles.json');
+    particlesJS.load('particles', 'https://gist.githubusercontent.com/parallela/7056d43d69f04d5f51c0db4a794b8cca/raw/b0c5292a7bd9da80f4e56a502514b375e12917d6/particles.json');
 
 
     // Typing
